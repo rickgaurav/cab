@@ -3,7 +3,7 @@ from driver.models import Driver
 from customer.models import Customer
 
 
-class Request(models.Model):
+class Trip(models.Model):
 
     STATUSES = (
         ('WAITING', 'WAITING'),
