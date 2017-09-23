@@ -15,5 +15,5 @@ class Trip(models.Model):
     customer = models.ForeignKey(Customer)
     created_at = models.DateTimeField(auto_now=True)
     accepted_at = models.DateTimeField(null=True)
-    status = models.CharField(max_length=30, choices=STATUSES)
+    status = models.CharField(max_length=30, choices=STATUSES, default=STATUSES[0][0])
 
