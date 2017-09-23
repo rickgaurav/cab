@@ -25,6 +25,10 @@
     "webpack": "^3.6.0"
   },
   "dependencies": {
+    "axios": "^0.16.2",
+    "classnames": "^2.2.5",
+    "form-serialize": "^0.7.2",
+    "js-cookie": "^2.1.4",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
