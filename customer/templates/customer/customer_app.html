@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer App</title>
+</head>
+<body>
+    <div class="customer-app-container" id="customer-app-container">
+    </div>
+
+    {% include 'customer_bundle.html' %}
+
+    <!--<form action="{% url 'dashboard:trip_list'%}" method="post">-->
+        <!--{% csrf_token %}-->
+        <!--Customer Id: <input type="text" name="customer"/>-->
+        <!--<input type="submit" value="Ride Now"/>-->
+    <!--</form>-->
+</body>
+</html>
+

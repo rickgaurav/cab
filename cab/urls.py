@@ -18,7 +18,15 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^customerapp/', include('customer.urls')),
     url(r'^api/', include('customer.urls')),
     url(r'^api/', include('driver.urls')),
     url(r'^api/', include('dashboard.urls')),
 ]
+
+
+
+# Superuser
+#gaurav
+#rickgaurav@gmail.com
+#adminpassword
