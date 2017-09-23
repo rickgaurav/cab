@@ -5,10 +5,10 @@ from dashboard.serializers import TripSerializer
 
 
 class TripList(generics.ListCreateAPIView):
-    model = Trip
+    queryset = Trip.objects.all()
     serializer_class = TripSerializer
 
 
 class TripDetail(generics.RetrieveUpdateDestroyAPIView):
-    model = Trip
+    queryset = Trip.objects.all()
     serializer_class = TripSerializer
