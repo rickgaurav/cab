@@ -1,9 +1,8 @@
 from rest_framework.serializers import ModelSerializer
+from driver.models import Driver
 
-from customer.models import Customer
 
-
-class CustomerSerializer(ModelSerializer):
+class DriverSerializer(ModelSerializer):
     class Meta:
-        model = Customer
+        model = Driver
         fields = ('name', 'email', 'created_at')
