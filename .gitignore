@@ -104,5 +104,5 @@ ENV/
 /node_modules
 package-lock.json
 js/build
-static/
+/static
 customer_bundle.html
