@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'customer',
     'driver',
-    'dashboard'
+    'dashboard',
+    'rest_framework',
 ]
 
 MIDDLEWARE_CLASSES = [
