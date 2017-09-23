@@ -11,7 +11,7 @@ class Trip(models.Model):
         ('FINISHED', 'FINISHED')
     )
 
-    driver = models.ForeignKey(Driver)
+    driver = models.ForeignKey(Driver, null=True)
     customer = models.ForeignKey(Customer)
     created_at = models.DateTimeField(auto_now=True)
     accepted_at = models.DateTimeField(null=True)
